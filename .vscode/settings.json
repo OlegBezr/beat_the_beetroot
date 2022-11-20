@@ -1,0 +1,27 @@
+{
+  // Remove .fvm files from search
+  "search.exclude": {
+    "**/.fvm": true
+  },
+  // Remove from file watching
+  "files.watcherExclude": {
+    "**/.fvm": true
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.autoIndent": "full",
+    "editor.selectionHighlight": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.tabCompletion": "on",
+    "editor.wordBasedSuggestions": false,
+    "editor.rulers": [80],
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true,
+  },
+  "dart.lineLength": 80,
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+}
